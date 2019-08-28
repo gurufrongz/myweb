@@ -1,0 +1,54 @@
+.from{
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    border-radius: 30px;
+    border:2px dashed#f3a600;
+
+}
+
+.input-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-window-shadow:1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    padding: 7px;
+    outline:none;
+
+}
+.input-field:focus{
+    border:3px solid rgb(red, green, blue)
+}
+.btn{
+    border:none;
+    padding: 3px 15px 8px 15px;
+    background: #ffe600;
+    color: rgb(red, green, blue);
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-window-shadow:1px 1px 4px #ebebeb;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    margin:10px;
+}
+
+label>span{
+    width: 200px;
+    font-weight: bold;
+    float: left;
+    padding-top:8px;
+    padding-right: 5px;
+}
+
+label{
+    display:block;
+    margin:0px 0px 15px 0px;
+}
+.btn:hover{
+    background-color: rgba(red, green, blue, alpha);
+}

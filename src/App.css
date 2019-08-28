@@ -1,0 +1,44 @@
+.btn{
+  border: none;
+  padding: 8px 15px 8px 15px;
+  background: #FF8500;
+  color : #fff;
+  box-shadow: 1px 1px 4px #DADADA;
+  -moz-box-shadow:1px 1px 4px #DADADA;
+  -webkit-box-shadow:1px 1px 4px #DADADA;
+  border-radius: 5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+
+}
+.btn:hover{
+  background-color:#0c0;   
+}
+label > span {
+   width: 150px;
+   font-weight: bold;
+   float: left;
+   padding-top: 8px;
+   padding-right:5px;
+}
+label{
+   display: block;
+   margin: 0px 0px 15px 0px;
+}
+.input-field{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #c2c2c2;
+  box-shadow: 1px 1px 4px #ebebeb;
+  -webkit-window-shadow:1px 1px 4px #ebebeb;
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  padding: 7px;
+  outline:none;
+}
+.input-field:focus{
+  border:3px solid rgb(red, green, blue)
+}
+

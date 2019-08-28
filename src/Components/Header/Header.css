@@ -1,0 +1,22 @@
+.navbar{
+    display:inline-block;
+    background-color: #00b0ff;
+      color: #01579b;
+      font-size: 25;
+      padding: 10;
+      width: 100%;
+}
+
+.navlink{
+    float: left;
+    background-color: #4fc3f7;
+      color: #01579b;
+      font-size: 25px;
+      padding: 10px;
+}
+
+.navlink:hover {
+    color: #000;
+    display: block;
+    background: #e1f5fe;
+}
